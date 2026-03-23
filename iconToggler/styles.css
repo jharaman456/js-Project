@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+    
+  }
+  .item-list {
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  .item-list li {
+    text-align: center;
+  }
+  
+  
+  .favorite-icon {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #555;
+  }
+  
+  .filled {
+    color: crimson;
+    transform: scale(1.2);
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
